@@ -1,0 +1,41 @@
+@media screen and (max-width: 770px) {
+  .copyright {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .social {
+    margin: 0 39% 1.5rem 39%;
+  }
+
+  .copyright {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .social {
+    margin: 0 38% 1.4rem 38%;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .social {
+    margin: 0 36% 1.3rem 36%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .social {
+    margin: 0 34% 1rem 34%;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .social {
+    margin: 0 32% 0.8rem 32%;
+  }
+}
+
+/*************************************************************************************************************/

@@ -1,0 +1,56 @@
+.footer-line {
+  width: 12%;
+  margin: 5rem 44% 2.5rem 44%;
+  border: none;
+  border-bottom: 0.2rem solid var(--color-blue);
+}
+
+.social {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 40% 1.6rem 40%;
+  color: var(--color-text);
+}
+
+.github,
+.linkedin,
+.twitter {
+  width: 1.8rem;
+  height: 1.8rem;
+  margin-right: 2rem;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 0.3s ease-out;
+}
+
+.github:hover,
+.linkedin:hover,
+.twitter:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.github svg,
+.linkedin svg,
+.twitter svg {
+  fill: var(--color-text);
+}
+
+.github svg {
+  transform: scale(1.1);
+}
+
+.twitter {
+  margin-right: 0;
+}
+
+.copyright {
+  margin-bottom: 2rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+  text-align: center;
+  color: var(--color-text);
+}
+
+/*************************************************************************************************************/

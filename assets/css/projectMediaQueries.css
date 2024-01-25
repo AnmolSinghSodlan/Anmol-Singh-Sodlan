@@ -1,0 +1,41 @@
+@media screen and (max-width: 1115px) {
+  .project {
+    padding: 0rem;
+  }
+
+  .project-image {
+    height: 35rem;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .project-image {
+    height: 30rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .project-image {
+    height: 25rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .project-image {
+    height: 22rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .project-image {
+    height: 18rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .project-image {
+    height: 15rem;
+  }
+}
+
+/*************************************************************************************************************/

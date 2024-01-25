@@ -1,0 +1,253 @@
+@media screen and (max-width: 1115px) {
+  .details {
+    grid-template-rows: 16rem 8.5rem 7rem;
+  }
+
+  .tech-stack-images {
+    margin-top: 0.5rem;
+  }
+
+  .projects {
+    width: 100%;
+    height: 32.9rem;
+  }
+
+  .project-name {
+    font-size: 1.9rem;
+  }
+
+  .tagline {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+  }
+
+  .language > code {
+    margin: 0 0.4rem 0 0;
+    font-size: 0.7rem;
+  }
+
+  .project-details {
+    font-size: 0.7rem;
+    -webkit-line-clamp: 6;
+  }
+}
+
+/****************************************************************************/
+
+@media screen and (max-width: 1000px) {
+  body {
+    margin: 0 3%;
+  }
+
+  .details {
+    grid-template-rows: 16rem 8.5rem 7rem;
+  }
+
+  .tech-stack-images {
+    margin-top: 0.8rem;
+  }
+
+  .projects {
+    width: 100%;
+    height: 32.9rem;
+  }
+
+  .project-name {
+    font-size: 1.7rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .tagline {
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .language > code {
+    padding: 0.15rem 0.3rem;
+    margin: 0 0.1rem 0 0;
+    font-size: 0.64rem;
+  }
+
+  .project-details {
+    margin-top: 0.6rem;
+    font-size: 0.68rem;
+    -webkit-line-clamp: 7;
+  }
+}
+
+/****************************************************************************/
+
+@media screen and (max-width: 850px) {
+  body {
+    margin: 0 3%;
+  }
+
+  .app {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .details {
+    grid-template-rows: auto 8.5rem auto;
+  }
+
+  .about-text > p {
+    margin-bottom: 1.4rem;
+  }
+
+  .tech-stack-images {
+    margin-top: 1.5vw;
+  }
+
+  .tech-stack-image {
+    width: 8vw;
+    height: 8vw;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .projects {
+    height: 90vh;
+    margin-top: 0.7rem;
+  }
+
+  .project-name {
+    font-size: 2.2rem;
+  }
+
+  .tagline {
+    margin-bottom: 0.7rem;
+    font-size: 1.1rem;
+  }
+
+  .language > code {
+    font-size: 0.8rem;
+  }
+
+  .project-details {
+    font-size: 0.8rem;
+    -webkit-line-clamp: 6;
+  }
+
+  .link-icon {
+    margin-top: 0.6rem;
+  }
+}
+
+/****************************************************************************/
+
+@media screen and (max-width: 610px) {
+  .details {
+    grid-template-rows: auto 8.5rem auto;
+  }
+
+  .about-text > p {
+    margin-bottom: 1.4rem;
+  }
+
+  .tech-stack-images {
+    margin-top: 2vw;
+  }
+
+  .project-name {
+    font-size: 1.7rem;
+  }
+
+  .tagline {
+    margin-bottom: 0.6rem;
+    font-size: 0.9rem;
+  }
+
+  .language > code {
+    margin: 0 0.3rem 0 0;
+    font-size: 0.7rem;
+  }
+
+  .project-details {
+    font-size: 0.7rem;
+    -webkit-line-clamp: 8;
+  }
+}
+
+/****************************************************************************/
+
+@media screen and (max-width: 555px) {
+  .details {
+    grid-template-rows: auto 8.5rem auto;
+  }
+
+  .about-text > p {
+    margin-bottom: 1.4rem;
+  }
+}
+
+/****************************************************************************/
+
+@media screen and (max-width: 515px) {
+  .details {
+    grid-template-rows: auto 8.5rem auto;
+  }
+
+  .about-text > p {
+    margin-bottom: 1.4rem;
+  }
+
+  .tech-stack-images {
+    margin-top: 2vw;
+  }
+
+  .projects {
+    width: 100%;
+    height: 60vh;
+  }
+
+  .project-name {
+    font-size: 1.2rem;
+    margin-bottom: -0.01rem;
+  }
+
+  .tagline {
+    margin-bottom: 0.1rem;
+    font-size: 0.62rem;
+  }
+
+  .language > code {
+    padding: 0.1rem 0.2rem;
+    margin: 0 0.05rem 0 0;
+    font-size: 0.4rem;
+  }
+
+  .project-details {
+    margin-top: 0.4rem;
+    font-size: 0.5rem;
+    -webkit-line-clamp: 6;
+  }
+
+  .link-icon {
+    height: 1.4rem;
+    width: 1.4rem;
+    margin-top: 0.5rem;
+  }
+}
+
+/****************************************************************************/
+
+@media screen and (max-width: 400px) {
+  .tech-stack-images {
+    margin-top: 1.5vw;
+  }
+
+  .tagline {
+    margin-bottom: 0.1rem;
+    font-size: 0.62rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+/*************************************************************************************************************/
