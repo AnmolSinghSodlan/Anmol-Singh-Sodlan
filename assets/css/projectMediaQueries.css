@@ -1,6 +1,14 @@
 @media screen and (max-width: 1115px) {
   .project {
-    padding: 0rem;
+    padding: 0.5rem 0rem;
+  }
+
+  .project-text > h1 {
+    font-size: 1.6rem;
+  }
+
+  .project-text > p {
+    font-size: 0.9rem;
   }
 
   .project-image {
@@ -9,30 +17,70 @@
 }
 
 @media screen and (max-width: 950px) {
+  .project-text > h1 {
+    font-size: 1.5rem;
+  }
+
+  .project-text > p {
+    font-size: 0.8rem;
+  }
+
   .project-image {
     height: 30rem;
   }
 }
 
 @media screen and (max-width: 800px) {
+  .project-text > h1 {
+    font-size: 1.3rem;
+  }
+
+  .project-text > p {
+    font-size: 0.7rem;
+  }
+
   .project-image {
     height: 25rem;
   }
 }
 
 @media screen and (max-width: 650px) {
+  .project-text > h1 {
+    font-size: 1.2rem;
+  }
+
+  .project-text > p {
+    font-size: 0.65rem;
+  }
+
   .project-image {
     height: 22rem;
   }
 }
 
 @media screen and (max-width: 550px) {
+  .project-text > h1 {
+    font-size: 1.1rem;
+  }
+
+  .project-text > p {
+    font-size: 0.6rem;
+  }
+
   .project-image {
     height: 18rem;
   }
 }
 
 @media screen and (max-width: 420px) {
+  .project-text > h1 {
+    font-size: 1rem;
+  }
+
+  .project-text > p {
+    font-size: 0.55rem;
+  }
+
   .project-image {
     height: 15rem;
   }
