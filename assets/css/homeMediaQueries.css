@@ -151,6 +151,11 @@
     margin-top: 2vw;
   }
 
+  .counter {
+    width: 20%;
+    margin: 0 40%;
+  }
+
   .project-name {
     font-size: 1.7rem;
   }
