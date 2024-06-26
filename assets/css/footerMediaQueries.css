@@ -1,4 +1,8 @@
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 800px) {
+  .footer-line {
+    margin: 4rem 44% 2.5rem 44%;
+  }
+
   .copyright {
     font-size: 0.8rem;
   }

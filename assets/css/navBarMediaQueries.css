@@ -1,0 +1,11 @@
+@media screen and (max-width: 1600px) {
+  .nav-bar {
+    margin: 1.0rem 0.8rem;
+  }
+}
+  
+@media screen and (max-width: 1280px) {
+  .nav-bar {
+    margin: 0.8rem 0.8rem;
+  }
+}

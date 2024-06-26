@@ -1,3 +1,25 @@
+@media screen and (max-width: 1600px) {
+  .app {
+    height: 34rem;
+  }
+
+  .details {
+    grid-template-rows: 16rem 8.5rem 9.5rem;
+  }
+
+  .resume,
+  .contact {
+    font-size: 1.2rem;
+  }
+
+  .resume-image,
+  .contact-image {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin: 1.5rem 0 0.5rem 0;
+  }
+}
+
 @media screen and (max-width: 1115px) {
   .details {
     grid-template-rows: 16rem 8.5rem 8.5rem;
