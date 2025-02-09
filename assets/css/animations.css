@@ -25,19 +25,19 @@
 /*********************************************************/
 
 .slide-in {
-  animation: slideIn 0.7s ease;
+  animation: slideIn 0.71s ease;
 }
 
 .slide-out {
-  animation: slideOut 0.7s ease;
+  animation: slideOut 0.71s ease;
 }
 
 .slide-up {
-  animation: slideUp 0.7s ease;
+  animation: slideUp 0.71s ease;
 }
 
 .slide-down {
-  animation: slideDown 0.7s ease;
+  animation: slideDown 0.71s ease;
 }
 
 /*************************************************************************************************************/
