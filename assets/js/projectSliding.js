@@ -82,11 +82,11 @@ function onNext() {
   setTimeout(() => {
     counter++;
     if (counter > 4) counter = 0;
-  }, 701);
+  }, 725);
 
   setTimeout(() => {
     add();
-  }, 702);
+  }, 727);
 }
 
 function onPrev() {
@@ -95,11 +95,11 @@ function onPrev() {
   setTimeout(() => {
     counter--;
     if (counter < 0) counter = 4;
-  }, 701);
+  }, 725);
 
   setTimeout(() => {
     add();
-  }, 702);
+  }, 727);
 }
 
 function onCounterPoint(index) {
@@ -107,11 +107,11 @@ function onCounterPoint(index) {
 
   setTimeout(() => {
     counter = index;
-  }, 701);
+  }, 725);
 
   setTimeout(() => {
     add();
-  }, 702);
+  }, 727);
 }
 
 counterPoints.forEach((counterPoint, index) => {
